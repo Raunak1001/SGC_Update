@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cb_tech"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checked="true"
+        android:text="Technical Board"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb_cult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checked="true"
+        android:text="Cultural Board"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb_sport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checked="true"
+        android:text="Sports Board"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb_welf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checked="true"
+        android:text="Welfare Board"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb_hab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checked="true"
+        android:text="Hostel Affairs Board"
+        android:textSize="20sp" />
+
+</LinearLayout>

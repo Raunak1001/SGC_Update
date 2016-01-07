@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/ivBarak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/barak" />
+
+        <TextView
+            android:id="@+id/tvBarak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivBarak"
+            android:layout_below="@id/ivBarak"
+            android:text="BARAK" />
+
+        <ImageView
+            android:id="@+id/ivBrahma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/brahmaputra" />
+
+        <TextView
+            android:id="@+id/tvBrahma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivBrahma"
+            android:layout_below="@id/ivBrahma"
+            android:text="BRAHMAPUTRA" />
+
+        <ImageView
+            android:id="@+id/ivDhano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvBarak"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dhansiri" />
+
+        <TextView
+            android:id="@+id/tvDhano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivDhano"
+            android:layout_below="@id/ivDhano"
+            android:text="DHANSIRI" />
+
+        <ImageView
+            android:id="@+id/ivDibang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvBrahma"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dibang" />
+
+        <TextView
+            android:id="@+id/tvDibang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivDibang"
+            android:layout_below="@id/ivDibang"
+            android:text="DIBANG" />
+
+        <ImageView
+            android:id="@+id/ivDihing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvDhano"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dihing" />
+
+        <TextView
+            android:id="@+id/tvDihing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivDihing"
+            android:layout_below="@id/ivDihing"
+            android:text="DIHING" />
+
+        <ImageView
+            android:id="@+id/ivKameng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvDibang"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/kameng" />
+
+        <TextView
+            android:id="@+id/tvKameng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivKameng"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/ivKameng"
+            android:text="KAMENG" />
+
+        <ImageView
+            android:id="@+id/ivKapili"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvDihing"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/kapili" />
+
+        <TextView
+            android:id="@+id/tvKapili"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivKapili"
+            android:layout_below="@id/ivKapili"
+            android:text="KAPILI" />
+
+        <ImageView
+            android:id="@+id/ivLohit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvKameng"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/lohit" />
+
+        <TextView
+            android:id="@+id/tvLohit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivLohit"
+            android:layout_below="@id/ivLohit"
+            android:text="LOHIT" />
+
+        <ImageView
+            android:id="@+id/ivManas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvKapili"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/manas" />
+
+        <TextView
+            android:id="@+id/tvManas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivManas"
+            android:layout_below="@id/ivManas"
+            android:text="MANAS" />
+
+        <ImageView
+            android:id="@+id/ivMSH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvLohit"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/msh" />
+
+        <TextView
+            android:id="@+id/tvMSH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivMSH"
+            android:layout_below="@id/ivMSH"
+            android:text="MARRIED SCHOLARS" />
+
+        <ImageView
+            android:id="@+id/ivSiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvManas"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/siang" />
+
+        <TextView
+            android:id="@+id/tvSiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivSiang"
+            android:layout_below="@id/ivSiang"
+            android:text="SIANG" />
+
+        <ImageView
+            android:id="@+id/ivSubbu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvMSH"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/subansiri" />
+
+        <TextView
+            android:id="@+id/tvSubbu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivSubbu"
+            android:layout_below="@id/ivSubbu"
+            android:text="SUBHANSIRI" />
+
+        <ImageView
+            android:id="@+id/ivUmiam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvSiang"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/umiam" />
+
+        <TextView
+            android:id="@+id/tvUmiam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ivUmiam"
+            android:layout_below="@id/ivUmiam"
+            android:layout_marginBottom="10dp"
+            android:text="UMIAM" />
+    </RelativeLayout>
+
+</ScrollView>

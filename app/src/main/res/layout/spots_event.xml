@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/interiit" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:text="Inter IIT"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="Inter IIT Sports Meet is a contest held every winter at one of the IITs. The Meet affords the opportunity to the sportspersons from the IITs to showcase their talents. An Inter-IIT Aquatic meet is held separately as a part of the main meet each year preceding the main Inter-IIT Sports meet. The team excelling in both the meets is further awarded the General Championship. The probables for the meet are selected in September and are then subjected to regular coaching almost every evening in the odd semester by excellent coaches. A sports camp is organized at the end of the semester two weeks before Meet. It’s not easy to get into the Inter-IIT contingent. But dedication, hard work and passion can make everything possible. So if you want to represent your Institute at the highest level then dare and soar!"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/spirit" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:text="Spardha"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="Your extra-curricular abilities will come to the fore during IIT Guwahati’s signature inter-hostel cultural competition, as ten bastions of pride prepare to battle it out for the Manthan trophy. Manthan brings out of you abilities you may never have realized you have as you and your mates show everyone else why your hostel trounces all others.Held during the month of October, Manthan also gives you an excellent chance to bond with the seniors from your hostel, and find new friends in your batch. Winning something of this scale is not something a small group of people can ever accomplish, and entire army of dancers, writers, singers, instrumentalists, painters, and prop-makers will be required to oust the competition. Night-outs, team work, time management and delivering a winning performance, that’s just the kind of stuff the spirit of Manthan embodies. Montage covers every single happening of this event every year, whether it be the performances or the decoration or the preparations or crowd. Here are some of the most beautiful shots taken by our club members of various performances by different hostels during Manthan."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/asdasdas" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:text="Spirit"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Spirit is the annual sporting festival of IIT Guwahati. Held in the last week of October, it witnesses participation from across the North East. Some of the sporting talent on show is truly spectacular, with teams from our college pitted against professional sportsmen of real caliber. Spirit also serves the purpose of providing our probables for the Inter IIT Sports Meet an opportunity to iron out the flaws in their game, and gain some valuable match practice. Spirit is a spectacle not to be missed if you are a sports enthusiast."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

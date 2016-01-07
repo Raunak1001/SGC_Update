@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+       <ImageView
+        android:layout_marginTop="-17dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/slideshow2"
+            android:id="@+id/imageView" />
+
+
+
+
+    <TextView
+        android:layout_marginTop="-10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtech_about"
+        android:textSize="16sp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-light."
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginBottom="2dp"
+        android:text="Chairman"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+android:layout_marginTop="2dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom">
+    <ImageView
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tech_chair"
+        />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textColor="#4866B0"
+    android:textSize="16sp"
+    android:id="@+id/tvtech_chair1"
+    />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvtech_chair2"
+                />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginBottom="2dp"
+        android:text="General Secretary"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom">
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tech_gensec"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#4866B0"
+                android:textSize="16sp"
+                android:id="@+id/tvtech_gen1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvtech_gen2"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginBottom="2dp"
+        android:text="Event Manager"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom">
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tech_event"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#4866B0"
+                android:textSize="16sp"
+                android:id="@+id/tvtech_event1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvtech_event2"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

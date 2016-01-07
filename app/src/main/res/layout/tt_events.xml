@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Events:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+       android:text="Inter IIT: The primary goal of every sports club of the IIT (annual event)\n\nTable Tennis Spardha: Inter hostel competition (annual event)\n\nSummer Camp (Training for Table Tennis under guidance of coaches)\n\nSpirit: Inter college competition (annual event)\n\nFriendly Matches : Held at regular intervals against the local teams and clubs"
+        android:textSize="16sp" />
+</LinearLayout>
+    </ScrollView>

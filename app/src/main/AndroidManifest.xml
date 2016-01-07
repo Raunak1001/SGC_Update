@@ -1,0 +1,252 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.iitg.sgc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="com.iitg.sgc.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.iitg.sgc.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sports_Clubs.Aquatics"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".Sports_Clubs.Athletics"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".Sports_Clubs.Badminton"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Sports_Clubs.Basketball"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Sports_Clubs.Cricket"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Sports_Clubs.Football"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Sports_Clubs.Hockey"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Sports_Clubs.Squash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Sports_Clubs.Tennis"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Sports_Clubs.TT"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Sports_Clubs.Volleyball"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Sports_Clubs.WeightLifting"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Cult_clubs.Anchor"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Cult_clubs.Dance"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Cult_clubs.Drama"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Cult_clubs.FineArts"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Cult_clubs.Literary"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Cult_clubs.Movie"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Cult_clubs.Music"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Cult_clubs.Photo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Tech_clubs.Acumen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity> <activity
+        android:name=".Tech_clubs.Aero"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait">
+    </activity> <activity
+        android:name=".Tech_clubs.Astro"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait">
+    </activity> <activity
+        android:name=".Tech_clubs.Auto"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait">
+    </activity> <activity
+        android:name=".Tech_clubs.Coding"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait">
+    </activity> <activity
+        android:name=".Tech_clubs.EDC"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait">
+    </activity> <activity
+        android:name=".Tech_clubs.Electronics"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait">
+    </activity> <activity
+        android:name=".Tech_clubs.Finance"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait">
+    </activity> <activity
+        android:name=".Tech_clubs.Prakriti"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait">
+    </activity> <activity
+        android:name=".Tech_clubs.Radio"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait">
+    </activity> <activity
+        android:name=".Tech_clubs.Robotics"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait">
+    </activity>
+
+        <activity
+            android:name=".Welfare_clubs.Academic"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Welfare_clubs.Ribbon"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Welfare_clubs.Rights"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Welfare_clubs.Saathi"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Welfare_clubs.Youth"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Welfare_clubs.Social"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Developers"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Notification"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.iitg.sgc" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GCMIntentService" />
+
+    </application>
+
+
+</manifest>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/alcher" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:text="Alcheringa"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="Alcheringa, popularly known as Alcher, is the annual cultural festival of Indian Institute of Technology (IIT), Guwahati. It was started in 1996 by a group of students of IIT Guwahati. Since then, it has gone on to become one of the biggest college level cultural events in Asia. Alcheringa is conducted towards the end of January every year. Spread over 3 days and 4 nights, it attracts people from all over the world with its spectacular events and competitions. The 2015 edition, held from 29th January to 1st Feb, witnessed more than 70 events. Students from about 350 colleges from all over the country participated andan attendance of more than 70,000 people was estimated."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/mnthn" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:text="Manthan"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="Your extra-curricular abilities will come to the fore during IIT Guwahati’s signature inter-hostel cultural competition, as ten bastions of pride prepare to battle it out for the Manthan trophy. Manthan brings out of you abilities you may never have realized you have as you and your mates show everyone else why your hostel trounces all others.Held during the month of October, Manthan also gives you an excellent chance to bond with the seniors from your hostel, and find new friends in your batch. Winning something of this scale is not something a small group of people can ever accomplish, and entire army of dancers, writers, singers, instrumentalists, painters, and prop-makers will be required to oust the competition. Night-outs, team work, time management and delivering a winning performance, that’s just the kind of stuff the spirit of Manthan embodies. Montage covers every single happening of this event every year, whether it be the performances or the decoration or the preparations or crowd. Here are some of the most beautiful shots taken by our club members of various performances by different hostels during Manthan."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/advaya" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:text="Advaya"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Advaya is an annual PG inter-departmental techno-cultural festival of IIT Guwahati. It is an avenue for students to be comforted from their conventional lives to embrace the fun and frolic embodied with captivating performances of the artists hidden inside them. Commenced in 2010 as a 'PG Fest', Advaya (which stands for non-dualism) earned its official name in the year 2012 and was taken to a new level by the organizers of 2013. Now, it has turned into an ever-growing fiesta currently in its 6th edition. This time with a whole new theme ALCHEMY BEGINS, Advaya is all set to spread magical revolution with new additions such as Sanidhya - A cultural evening especially for Faculties, Married Scholars and their families, Sports and various informal events. So, get ready to awake and transform the unexplored-selves. Get loaded with ethnic charisma and panache. This fall, shed your inhibitions, set the stage ablaze, and become one with the spirit of change and achievement!"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

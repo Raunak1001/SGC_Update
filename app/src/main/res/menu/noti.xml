@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Notification">
+    <item
+        android:id="@+id/noti_menu"
+        android:icon="@drawable/noti"
+        android:title="Notifications"
+        app:showAsAction="always|collapseActionView" />
+</menu>

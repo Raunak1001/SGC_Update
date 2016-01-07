@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/hab"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHabAbout"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="7dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light."
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginBottom="2dp"
+        android:text="Chairman"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom">
+        <ImageView
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hab_chair"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#4866B0"
+                android:id="@+id/tvhab_chair1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvhab_chair2"
+                />
+
+        </LinearLayout>
+</LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom">
+            <ImageView
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/habgs"
+                />
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#4866B0"
+                    android:id="@+id/tvhab_gen1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvhab_gen2"
+                    />
+
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+    </ScrollView>
