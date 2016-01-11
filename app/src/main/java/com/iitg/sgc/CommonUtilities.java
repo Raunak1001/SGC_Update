@@ -9,7 +9,7 @@ import android.content.Intent;
 public class CommonUtilities {
 
     // give your server registration url here
-    static final String SERVER_URL = "http://sgciitgserver.16mb.com/gcm_server1_php/register.php";
+    static final String SERVER_URL = "http://raunak1001.comyr.com/Gymkhana/register.php";
 
     // Google project id
     public static final String SENDER_ID = "1021069950176";
